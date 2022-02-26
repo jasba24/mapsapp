@@ -1,8 +1,10 @@
-import React from 'react'
-import { PlacesProvider } from './context/places/PlacesProvider';
+import { PlacesProvider } from './context/places'
+import { Home } from './screens';
 
 export const MapsApp = () => {
-  return <PlacesProvider>
-    <h1>Hello world again</h1>
-  </PlacesProvider>
+  return (
+    <PlacesProvider>
+      <Home></Home>
+    </PlacesProvider>
+  )
 }
