@@ -1,5 +1,5 @@
 import { useContext, useLayoutEffect, useRef } from 'react'
-import { PlacesContext } from '../context/places'
+import { PlacesContext } from '../context'
 import { Loading } from '../components/Loading'
 import { Map } from 'mapbox-gl'
 
