@@ -1,6 +1,4 @@
-import { MapView } from '../components'
-import { BtnMyLocation } from '../components/BtnMyLocation'
-import { ReactLogo } from '../components/ReactLogo';
+import { MapView, BtnMyLocation, ReactLogo, SearchBar } from '../components'
 
 export const Home = () => {
   return (
@@ -8,6 +6,7 @@ export const Home = () => {
       <MapView></MapView>
       <BtnMyLocation></BtnMyLocation>
       <ReactLogo></ReactLogo>
+      <SearchBar></SearchBar>
     </>
   )
 }
