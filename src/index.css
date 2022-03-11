@@ -33,3 +33,7 @@ code {
   padding: 5px;
   border-radius: 5px;
 }
+
+.pointer {
+  cursor: pointer;
+}
